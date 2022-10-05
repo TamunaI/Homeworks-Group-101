@@ -34,8 +34,16 @@
 # else:
 #     print("tolia")
 
-print(5 != 10)
-print("A" not in "jhfglkj")
+# print(5 != 10)
+# print("A" not in "jhfglkj")
+
+
+
+# davaleba: Sololearn -24.2-is chatvlit
+# momxmarebels shemovataninot ori saxeli da is davprintot romelshic meti Tanxmovania
+
+
+
 
 
 
@@ -44,6 +52,31 @@ print("A" not in "jhfglkj")
 
 # for char in my_name:
 #     print(char)
+
+
+name1 = input("enter name 1 here: ")
+name2 = input("enter name 2 here: ")
+
+consonants_in_name1 = 0
+consonants_in_name2 = 0
+
+for char in name1:
+    if char not in "aeiou":
+        consonants_in_name1 +=1
+
+for char in name2:
+    if char not in "aeiou":
+        consonants_in_name2 +=1
+
+
+if consonants_in_name1 > consonants_in_name2:
+    print(name1)
+else:
+    print(name2)
+
+
+
+
 
 # for i in range(10):
 #     print(str(1) + "a")
